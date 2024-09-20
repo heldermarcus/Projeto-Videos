@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+h1{
+  color: aliceblue;
+}
+h2{
+  color:aliceblue;
+}
+img{
+  width: 350px;
+}
+.vídeohtml{
+  text-align: center;
+}
+.meu-botao {
+  background-color: #4CAF50; /* Cor de fundo (verde) */
+  border: none; /* Sem borda */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno (altura e largura) */
+  text-align: center; /* Alinhar o texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir inline */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 10px 2px; /* Margem ao redor do botão */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  border-radius: 12px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+}
+.meu-botao:hover {
+  background-color: #45a049;
+}
